@@ -11,6 +11,6 @@ The node with the highest *out-degree* is
 
 The node with the highest *in-degree* is
 > ***Theorem 11.12* (Fundamental Theorem of Finitely Generated Abelian Groups)** Every finitely generated abelian group $G$ is isomorphic to a direct product of cyclic groups in the form 
-> ![latex_image](readme_images/latex_expression.png),
-<!-- $$\mathbb{Z}_{(p_1)^{r_1}} \times \mathbb{Z}_{(p_2)^{r_2}} \times ... \times \mathbb{Z}_{(p_n)^{r_n}} \times \mathbb{Z} \times \mathbb{Z} \times ... \times \mathbb{Z}$$ -->
+> <div style="text-align: center;">![latex_image](readme_images/latex_expression.png),</div>
 > where the $p_i$ are primes, not necessarily distinct, and the $r_i$ are positive integers. The direct product is unique except for possible rearrangement of the factors; that is, the number (*Betti number* of G) of factors $\mathbb{Z}$ is unique and the prime powers ${p_i}^{r_i}$ are unique.
+<!-- $$\mathbb{Z}_{(p_1)^{r_1}} \times \mathbb{Z}_{(p_2)^{r_2}} \times ... \times \mathbb{Z}_{(p_n)^{r_n}} \times \mathbb{Z} \times \mathbb{Z} \times ... \times \mathbb{Z}$$ -->
