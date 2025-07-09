@@ -1,0 +1,31 @@
+[project]
+name = "algebra-graph"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "heisendelta",email = "ariya8.narayan7@outlook.jp"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "opencv-python (>=4.11.0.86,<5.0.0.0)",
+    "pdf2image (>=1.17.0,<2.0.0)",
+    "numpy (>=2.2.4,<3.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "pytesseract (>=0.3.13,<0.4.0)",
+    "pdfminer-six (>=20250506,<20250507)",
+    "networkx (>=3.5,<4.0)",
+    "scipy (>=1.15.3,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "algebra_graph", from = "src"}]
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^9.0.2"
+jupyter = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
