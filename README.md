@@ -19,10 +19,8 @@ The node with the highest *in-degree* is
 
 Since we have 713 nodes and 581 edges, plotting the graph as it stands proves difficult. To make visualization easier, we have aggregated nodes (theorems/corollaries) by their respective chapters and units (for instance, *Theorem 30.23* is in Part VII, Chapter 30).
 
-<p align="center">
-    <img src="readme_images/part_graph.png" width="49%">
-    <img src="readme_images/chapter_graph.png" width="49%">
-</p>
+![parts](readme_images/part_graph.png)
+![chapters](readme_images/chapter_graph.png)
 
 The chapters with the most number of connections are as follows:
 
